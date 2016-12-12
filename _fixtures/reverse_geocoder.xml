@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YDF xmlns="http://olp.yahooapis.jp/ydf/1.0" firstResultPosition="1" totalResultsAvailable="1" totalResultsReturned="1">
+  <ResultInfo>
+    <Count>1</Count>
+    <Total>1</Total>
+    <Start>1</Start>
+    <Latency>0.0052351951599121</Latency>
+    <Status>200</Status>
+    <Description>指定の地点の住所情報を取得する機能を提供します。</Description>
+    <Copyright>Copyright (C) 2016 Yahoo Japan Corporation. All Rights Reserved.</Copyright>
+    <CompressType/>
+  </ResultInfo>
+  <Feature>
+    <Property>
+      <Country>
+        <Code>JP</Code>
+        <Name>日本</Name>
+      </Country>
+      <Address>東京都目黒区目黒本町５丁目１６</Address>
+      <AddressElement>
+        <Name>東京都</Name>
+        <Kana>とうきょうと</Kana>
+        <Level>prefecture</Level>
+        <Code>13</Code>
+      </AddressElement>
+      <AddressElement>
+        <Name>目黒区</Name>
+        <Kana>めぐろく</Kana>
+        <Level>city</Level>
+        <Code>13110</Code>
+      </AddressElement>
+      <AddressElement>
+        <Name>目黒本町</Name>
+        <Kana>めぐろほんちょう</Kana>
+        <Level>oaza</Level>
+      </AddressElement>
+      <AddressElement>
+        <Name>５丁目</Name>
+        <Kana>５ちょうめ</Kana>
+        <Level>aza</Level>
+      </AddressElement>
+      <AddressElement>
+        <Name>１６</Name>
+        <Kana>１６</Kana>
+        <Level>detail1</Level>
+      </AddressElement>
+      <Building>
+        <Id>B@n0WrVSt_O</Id>
+        <Name>test name</Name>
+        <Floor>3</Floor>
+        <Area>test area</Area>
+      </Building>
+      <Road>
+        <Name>Test Name</Name>
+        <Kana>Test Kana</Kana>
+        <PopularName>Test PopularName</PopularName>
+        <PopularKana>Test PopularKana</PopularKana>
+      </Road>
+    </Property>
+    <Geometry>
+      <Type>point</Type>
+      <Coordinates>139.69994768500328,35.62172852580437</Coordinates>
+    </Geometry>
+  </Feature>
+</YDF>
